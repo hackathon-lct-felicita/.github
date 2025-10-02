@@ -14,6 +14,14 @@
 > [!NOTE]  
 > Тестирование через бота @x5_ner_hack_bot производится через [**RPC-режим**](https://github.com/hackathon-lct-felicita/.github/blob/main/profile/README.md#2-rpc-%D1%80%D0%B5%D0%B6%D0%B8%D0%BC). **Пожалуйста, используйте этот режим для запуска и проверки решения**.
 
+## Модель и источники данных
+В качестве основы для модели была выбрана предобученная модель [bert-base-multilingual-cased](https://huggingface.co/google-bert/bert-base-multilingual-cased).
+
+#### Внешние источники данных:
+1. [OpenFoodFacts](https://huggingface.co/datasets/openfoodfacts/product-database)
+2. [Парсинг брендов](https://github.com/hackathon-lct-felicita/train-model/blob/main/x5-api-brands.json) с сайта ["Пятерочка"](https://5ka.ru/) по API каталога. 
+
+Подробнее: https://github.com/hackathon-lct-felicita/train-model/blob/main/README.md
 
 ## 🔹 Технические требования
 Для корректного запуска необходимо:  
